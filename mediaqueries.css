@@ -5,5 +5,10 @@
     #hamburger_nav{
         display: flex;
     }
+    /*
+    #hamburger_nav::after{
+        content: "\2630"
+    }
+    */
     
 }
