@@ -65,7 +65,7 @@ a:hover{
 }
 /*Hamburger Menu*/
 
-#hamburger_nav{
+#hamburger_nav {
     display: none; /*il est invisible*/
 } 
 
@@ -114,18 +114,18 @@ a:hover{
     list-style: none;
 }
 
-.menu_links .open{
+.menu_links.open{
     max-height: 300px;
 }
 
 .hamburger_icon.open span:first-child{
-    transform: rotate(45deg) translate(10px,5px);
+    transform: rotate(45deg) translate(10px, 5px);
 }
-.hamburger_icon.open span:nth-child{
+.hamburger_icon.open span:nth-child(2){
     opacity: 0;
 }
 .hamburger_icon.open span:last-child{
-    transform: rotate(-45deg) translate(10px,-5px);
+    transform: rotate(-45deg) translate(10px, -5px);
 }
 
 .hamburger_icon span:first-child{
@@ -137,3 +137,4 @@ a:hover{
 .hamburger_icon span:first-child{
     transform: none;
 }
+/* SECTIONS */
