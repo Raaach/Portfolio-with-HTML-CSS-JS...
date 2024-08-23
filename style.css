@@ -226,3 +226,25 @@ section{
 .btn_container{
     gap: 1rem;
 }
+/* ABOUT SECTION*/
+#about{
+    position: relative;
+}
+.about_containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.about_details_container{
+    justify-content: center;
+    flex-direction: column;
+}
+.aboout_containers, .aboout_details_container{
+    display: flex;
+}
+.about_pic{
+    border-radius: 2rem;
+}
+.arrow{
+    position: absolute;
+}
