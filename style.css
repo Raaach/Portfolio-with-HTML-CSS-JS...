@@ -160,7 +160,7 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-   /* margin: auto 0; /*probléme de taille*/
+    margin: auto 0; /*probléme de taille*/
 }
 .section__ text{
     align-self: center;
