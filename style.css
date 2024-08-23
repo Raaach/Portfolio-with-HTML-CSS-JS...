@@ -160,7 +160,7 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-    margin: auto 0; /*probléme de taille*/
+   /* margin: auto 0; /*probléme de taille*/
 }
 .section__ text{
     align-self: center;
@@ -172,7 +172,7 @@ section{
 .section__text__p1{
     text-align: center;
 }
-.section__text__p1{
+.section__text__p2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -190,4 +190,39 @@ section{
 .icon{
     cursor:pointer;
     height: 2rem;
+}
+/*BUTTONS*/
+.btn_container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn_color_1, .btn_color_2{
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+.btn_color_1:hover, .btn_color_2:hover{
+    cursor: pointer;
+}
+.btn_color_1, .btn_color_2:hover{
+    background: rgb(53, 53, 53);
+    color: white
+}
+.btn_color_1:hover{
+    background: rgb(0,0,0);
+}
+.btn_color_2{
+    background: none;
+}
+.btn_color_2:hover{
+    border: rgb(255,255,255) 0.1rem solid;
+}
+.btn_container{
+    gap: 1rem;
 }
