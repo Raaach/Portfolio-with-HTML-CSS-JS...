@@ -302,3 +302,7 @@ section{
 }
 
 /* PROJECTS SECTION*/
+
+#projects{
+    position: relative;
+}
