@@ -250,7 +250,7 @@ section{
     right: -5rem;
     bottom: 2.5rem;
 }
-.details_container{
+.details_containers{
     padding: 1.5rem;
     flex: 1;
     background: white;
