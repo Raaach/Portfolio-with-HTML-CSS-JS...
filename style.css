@@ -306,3 +306,20 @@ section{
 #projects{
     position: relative;
 }
+.article_container{
+    border-color: (163,163,163);
+    background: rgb(250,250,250);
+}
+.projet_img{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+.project_title{
+    margin: 1rem;
+    color: black;
+}
+.project_btn{
+    color: black;
+    border-color: rgb(163,163,163);
+}
