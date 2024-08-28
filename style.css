@@ -341,3 +341,19 @@ section{
     margin: 2rem auto;
     padding: 0.5rem;
 }
+.contact_info_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+.contact_info_container p{
+    font-size: larger;
+}
+.contact_icon{
+    cursor: default;
+}
+.email_icon{
+    height: 2.5rem;
+}
