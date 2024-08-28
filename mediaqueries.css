@@ -15,16 +15,19 @@
     #hamburger_nav{
         display: flex;
     }
-    #eperience, .experience_details_container{
+    #experience, 
+    .experience_details_container{
         margin-top: 2rem;
     }
-    #profile, .section_container{
+    #profile, 
+    .section_container{
         display: block;
     }
     .arrow{
         display: none;
     }
-    section, .section_container{
+    section, 
+    .section_container{
         height: fit-content;
     }
     section{
